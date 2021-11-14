@@ -10,3 +10,8 @@ result=(nota1+nota2+nota3+nota4)/4
 
 print('Aluno:',name)
 print('Nota:',result)
+
+if (result >=5):
+    print('Você passou')
+else:
+    print('Você foi reprovado')
