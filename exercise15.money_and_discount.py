@@ -18,12 +18,10 @@ sind=(sal/100)*5
 liquid=(sal-sind-ir-inss)
 
 
-
-
-print('Seu salário bruto é de  {:.1f}' .format(sal), 'R$')
+print('Seu salário bruto é de  {:.2f}' .format(sal), 'R$')
 print('Descontos:')
 print('Inss:(8%) ',inss, 'R$')
-print('Imposto de renda:(11%) ',ir, 'R$')
+print('Imposto de renda:(11%) {:.2f}'.format(ir), 'R$')
 print('Sindicato:(5%) ',sind, 'R$')
 print('Salário líquido: {:.1f}'.format(liquid), 'R$')
 print('Pode chorar :)')
