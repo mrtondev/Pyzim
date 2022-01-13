@@ -1,6 +1,6 @@
 Lista de exercícios resolvidos de Estrutura sequencial
 
-Possui 18 exercícios(ou terão em breve.), todos resolvidos e executáveis.
+Possui 18 exercícios, todos resolvidos e executáveis.
 
 Os códigos estão abertos à críticas e melhorias, sempre buscando aprimoramento.
 
