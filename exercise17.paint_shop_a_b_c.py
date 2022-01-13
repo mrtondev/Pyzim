@@ -7,32 +7,28 @@
  # B)comprar apenas galões de 3,6 litros
  # C)misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
-cobe=6
-lata=18
-galao=3.6
-latapreco=80
-galaopreco=25
 
 print('Programa de cálculo de uso de tinta')
 
 area=float(input('Digite a àrea a ser pintada (em mts²) \n'))
 
-lts=(area/cobe)
+lts=(area/6) * 1.1
 
-totalata = (lts/lata)
+totalata = (lts/18)
 
-totalgala= (lts/galao)
-
-if lts%galao !=0 :
-    totalgala+=1
-
-if lts%lata != 0 :
-    totalata +=1
+totalgala= (lts/3.6)
     
-    
-precolata = (totalata*latapreco)
-precogalao = (totalgala*galaopreco)
+precolata = (totalata*80)
+precogalao = (totalgala*25)
 
+misturaslatas= (lts/18)
+misuragaloes=((lts-misturaslatas * 18) /3.6)
+
+if ((lts -(misturaslatas * 18)% 3.6 !=0)):
+    misuragaloes +=1
+    totalmistura = (misturaslatas * 80 ) + (misuragaloes * 25)
 print (' Pintando apenas com latas de tinta serão necessárias : {:.0f} '  .format(totalata) , 'e o valor total seria de R$: {:.2f}' .format(precolata)) #a
 print (' Pintando apenas com galões de tinta serão necessárias : {:.0f}'  .format(totalgala) , 'e o valor total seria de R$: {:.2f}' .format(precogalao)) #b
+print (' Pintando com mistura de galões e latas serão necessárias: Latas: {:.0f}' .format(misturaslatas), 'Galões: {:.0f}'.format(misuragaloes)) #c
+print (' O valor total seria de R$: {:.2f}'.format(totalmistura))
  
