@@ -4,14 +4,14 @@ print('--- Bem-vindo ---')
 print('--- ao ---')
 print('--- Programa de comparação de número ---')
 
-a=float(input('Digite um número: \n'))
-b=float(input('Digite outro número: \n'))
+a=int(input('Digite um número: \n'))
+b=int(input('Digite outro número: \n'))
 
 if a > b :
-    print('O maior número é: ',a)
-elif a < b :
-    print('O maior número é: ', b)
+    print(a,' É o maior número')
+elif b > a:
+    print(b, 'É o maior número')
 elif a == b:
     print('Os números são iguais')
-else: 
-    print('ERRO 404 NÃO ENCONTRADO')
+else:
+    print('ERROR')
