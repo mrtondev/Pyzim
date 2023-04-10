@@ -11,9 +11,12 @@ if a>b>c:
     print(c)
 elif a<b>c:
     print(b)
-    print(c)
+    print(a)
 elif a<b<c:
     print(c)
     print(a)
+elif b<a<c:
+    print(b)
+    print(c)
 else:
     print('error')

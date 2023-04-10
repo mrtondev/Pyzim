@@ -13,8 +13,10 @@ produto3_preco=float(input('Informe o valor: \n'))
 if produto1_preco>produto2_preco>produto3_preco:
     print('Compre o ',produto3_name)
 elif produto1_preco<produto2_preco>produto3_preco:
-    print('Compre o ',produto3_name)
+    print('Compre o ',produto1_name)
 elif produto1_preco<produto2_preco<produto3_preco:
     print('Compre o ', produto1_name)
+elif produto2_preco<produto1_preco<produto3_preco:
+    print('Compre o ', produto2_name)
 else:
     print('Compre o ', produto2_name)
