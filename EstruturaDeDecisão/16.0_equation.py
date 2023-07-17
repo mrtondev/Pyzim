@@ -4,7 +4,7 @@ def calcular_raizes(a,b,c):
     if a == 0:
         print('A equação não é de segundo graau')
         return
-    delta == b**2 - 4*a*c
+    delta=float == b**2 - 4*a*c
 
     if delta < 0:
         print('A equação naõ tem valores reais')
