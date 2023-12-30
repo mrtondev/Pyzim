@@ -1,4 +1,4 @@
-Lista de exercícios resolvidos de Estrutura sequencial
+Lista de exercícios resolvidos de Python
 
 Possui 18 exercícios, todos resolvidos e executáveis.
 
