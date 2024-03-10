@@ -3,7 +3,7 @@
 print('Programa verificador de datas: \n')
 print('\n')
 print('Digite uma data no formato dd/mm/aaaa, se for válida ou não, será informado\n')
-dd = int(input("Digite a data: \n"))
+dd = int(input("Digite o dia: \n"))
 mm = int(input("Digite o mês:  \n"))
 aaaa =int(input("Digite o ano: \n"))
 
