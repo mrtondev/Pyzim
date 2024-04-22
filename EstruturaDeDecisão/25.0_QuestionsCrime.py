@@ -13,7 +13,7 @@
 import time
 
 print('Olá, tenho umas questões para você : \n')
-print('Resonda elas você será listado como: \n')
+print('Responda elas você será listado como: \n')
 print('1- Inocente\n')
 print('2- Suspeito\n')
 print('3- Cúmplice\n')
