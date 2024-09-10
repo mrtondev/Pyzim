@@ -5,8 +5,8 @@ nums=[z]
 
 def contadorH(z):
         while z > 0 and z < 20:
-             z+=1
              print(z)
+             z+=1
              nums.append(z)  
         return
 contadorH(z)
