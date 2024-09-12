@@ -3,14 +3,13 @@
 print('Este programa exibirá os números ímpares entre 1 e 50')
 
 def escalador():
-    marcador = 1
-    while marcador >= 1 and marcador < 50:
-        if marcador % 2:
-            print(marcador)
-            marcador += 1
-            pass
+    resto = 1
+    while resto >= 1 and resto < 50:
+        if resto % 2:
+            print(resto)
+            resto += 1
         else:
-            marcador += 1
+            resto += 1
     return
 
 escalador()
