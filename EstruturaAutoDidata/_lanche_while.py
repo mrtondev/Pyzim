@@ -171,6 +171,7 @@ while True:
                 print('\n')
             else:{}
             break
+#Loop Sim
         elif conf.upper() == 'S' :
             print('#####################################################################################')
             print('#                                     Cardápio                                      #')
